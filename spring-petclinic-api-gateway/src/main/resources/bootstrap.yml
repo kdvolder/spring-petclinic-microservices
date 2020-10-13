@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://spring-petclinic-config-server:8080
   application:
     name: api-gateway
 ---
